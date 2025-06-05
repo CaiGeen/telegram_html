@@ -2,7 +2,7 @@
 
 ## 简介
 
-Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro 创建，可自定义输出内容、重新排版 Telegram 导出的 HTML 的 Python 小工具。
+Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro [共同创建](https://mp.weixin.qq.com/s/d79_AdX4IF4v7Ho2_E84yw)，可自定义输出内容、重新排版 Telegram 导出的 HTML 的 Python 工具。
 
 以 [Reorx’s Forge](https://t.me/reorx_share) 频道为例，对比处理前后的效果。
 
@@ -18,9 +18,15 @@ Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro 创
 
 该项目适用于需要整理回顾和分析 Telegram 频道或群组聊天记录的用户。
 
+## 版本信息
+- **初始版本**: v0.1.0 (包含主模块和数据分析子模块的基本功能)
+- **主模块**: V1.83.55
+- **数据分析子模块**: V1.27.3
+注：早期开发中模块独立迭代，导致版本号分化。未来更新将统一版本号，遵循 Semantic Versioning。
+
 ## 功能
 
-### 主模块 (V1.00.0)
+### 主模块 (V1.83.55)
 - **消息筛选**：
   - 根据用户指定的时间范围筛选消息。
   - 按 emoji 总数阈值（默认 ≥ 15）筛选消息。
@@ -35,7 +41,7 @@ Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro 创
   - 支持打印友好的样式，适合导出 PDF。
 - **统计**：输出消息总数、合并消息数、中文字数和提取率。
 
-### 数据分析子模块 (V1.00.0)
+### 数据分析子模块 (V1.27.3)
 - **消息提取**：
   - 提取每条消息的时间、用户名、消息编号、文本、emoji 总数和是否包含媒体。
 - **超链接统计**：统计所有消息中的超链接（排除媒体文件链接），按出现次数排序。
@@ -48,8 +54,8 @@ Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro 创
 ## 文件结构
 ```
 Telegram-Chat-Export-Processor/
-├── main.py                # 主模块 (V1.00.0)
-├── analysis.py            # 数据分析子模块 (V1.00.0)
+├── main.py                # 主模块 (1.83.55)
+├── analysis.py            # 数据分析子模块 (V1.27.3)
 ├── README.md              # 项目说明文件
 ├── ChatExport_2025-06-04/ # Telegram 导出的聊天记录目录
 │   ├── messages.html
@@ -108,8 +114,8 @@ Telegram-Chat-Export-Processor/
 - **编码**：确保输入文件使用 UTF-8 编码，避免乱码。
 
 ## 版本信息
-- 主模块：V1.00.0
-- 数据分析子模块：V1.00.0
+- 主模块：V1.83.55
+- 数据分析子模块：V1.27.3
 
 ## 联系
-如有问题或建议，请联系 [涂俊杰](https://mp.weixin.qq.com/s/d79_AdX4IF4v7Ho2_E84yw) 或提交 issue。
+如有问题或建议，请联系 [涂俊杰](https://github.com/CaiGeen/Hashnode-blog) 或提交 Issue。
