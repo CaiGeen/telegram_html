@@ -2,7 +2,7 @@
 
 ## 简介
 
-Telegram Channel Export Processor 是一个可自定义数据内容、重排版 Telegram 导出 HTML 数据的 Python 工具，信息密度提高 20% 以上。
+Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro 创建，可自定义输出内容、重新排版 Telegram 导出的 HTML 的 Python 小工具。
 
 以 [Reorx’s Forge](https://t.me/reorx_share) 频道为例，对比处理前后的效果。
 
@@ -13,8 +13,8 @@ Telegram Channel Export Processor 是一个可自定义数据内容、重排版 
 
 
 它包含两个模块：
-- **主模块**：筛选、合并和格式化聊天记录，生成易于阅读的 HTML 输出，生成易于阅读的 HTML，针对 PDF 打印优化，支持自定义时间范围、emoji 数量筛选、标签排除和媒体文件的显示 / 隐藏等。
-- **数据分析子模块**：提取消息数据、超链接和原博主标签，输出到 Excel 文件，便于进一步分析。
+- **主模块**：筛选、合并和格式化聊天记录，生成易于阅读的 HTML 输出，提高 20% 以上的信息密度，针对 PDF 打印优化，支持自定义时间范围、emoji 数量筛选、标签排除和媒体文件的显示 / 隐藏等。
+- **数据分析子模块**：提取消息数据、超链接和原博主使用过的标签，输出到 Excel 文件，便于进一步分析。
 
 该项目适用于需要整理回顾和分析 Telegram 频道或群组聊天记录的用户。
 
