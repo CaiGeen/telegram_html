@@ -94,7 +94,7 @@ Telegram-Channel-Export-Processor/
    python main.py
    ```
 2. 根据提示输入：
-   - Emoji 总数阈值（默认 15）。
+   - Emoji 总数阈值（默认 15，直接回车即可）。
    - 是否自定义时间范围（Y/N，默认 N，使用全部消息时间范围）。
    - 是否保留媒体链接（Y/N，默认 N，隐藏媒体）。
    - 是否排除特定标签（默认不排除，输入标签如 `#music, #star`）。
