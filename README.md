@@ -78,7 +78,7 @@ Telegram-Chat-Export-Processor/
 - Python 3.6+
 - 所需库：
   ```bash
-  pip install beautifulsoup4 pandas
+  pip install beautifulsoup4 pandas openpyxl
   ```
 
 ### 准备工作
