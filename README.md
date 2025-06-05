@@ -111,8 +111,8 @@ Telegram-Channel-Export-Processor/
    - Excel 文件保存在 `analysis/analysis_YYYYMMDDHHMMSS.xlsx`，包含 `Messages`、`Links` 和 `Tags` 工作表。
 
 ## 注意事项
-- **输入文件**：确保 Python 中 HTML 文件路径正确，包含 `messages*.html` 和相关媒体文件夹。
-- **标签统计**：仅统计原博主非转发消息的标签（`#tag_name` 格式）。
+- **文件路径**：确保 Python 中 HTML 文件路径正确，包含 `messages*.html` 和相关媒体文件夹。
+- **无法显示媒体**：就算用户选择显示媒体，输出 HTML 依然不显示，是因为 Telegram 导出限制文件不超过 8M，超限制的文件导不出来所以不显示。
 - **打印**：对于大量历史记录，比如导出中文超过 40 万字，双面 A4 纸打印可能超过 600 页，酌情删减。
 - **编码**：确保输入文件使用 UTF-8 编码，避免乱码。
 
