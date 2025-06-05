@@ -24,7 +24,6 @@ Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro [�
 - **初始版本**: v0.1.0 (包含主模块和数据分析子模块的基本功能)
 - **主模块**: V1.83.55
 - **数据分析子模块**: V1.27.3
-- 
 注：早期开发中模块独立迭代，导致版本号分化。未来更新将统一版本号，遵循 Semantic Versioning。
 
 ## 功能
