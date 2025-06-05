@@ -56,7 +56,7 @@ Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro [�
 
 ## 文件结构
 ```
-Telegram-Chat-Export-Processor/
+Telegram-Channel-Export-Processor/
 ├── main.py                # 主模块 (1.83.55)
 ├── analysis.py            # 数据分析子模块 (V1.27.3)
 ├── README.md              # 项目说明文件
