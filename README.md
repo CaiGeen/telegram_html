@@ -7,10 +7,10 @@ Telegram Channel Export Processor 是一个由我和 Grok 3 + Gemini 2.5 Pro [�
 以 [Reorx’s Forge](https://t.me/reorx_share) 频道为例，对比处理前后的效果。
 
 处理前：
-
+![image](https://github.com/CaiGeen/telegram_html/blob/main/before.png)
 
 处理后：
-
+![image](https://github.com/CaiGeen/telegram_html/blob/main/after.png)
 
 它包含两个模块：
 - **主模块**：筛选、合并和格式化聊天记录，生成易于阅读的 HTML 输出，提高 20% 以上的信息密度，针对 PDF 打印优化，支持自定义时间范围、emoji 数量筛选、标签排除和媒体文件的显示 / 隐藏等。
