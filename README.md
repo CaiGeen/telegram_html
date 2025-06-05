@@ -2,7 +2,7 @@
 
 ## 简介
 
-Telegram Channel Export Processor 是一个用于压缩重排版 Telegram 导出 HTML 历史数据的 Python 工具，信息密度提高 20% 以上。
+Telegram Channel Export Processor 是一个可自定义数据内容、重排版 Telegram 导出 HTML 数据的 Python 工具，信息密度提高 20% 以上。
 
 以 [Reorx’s Forge](https://t.me/reorx_share) 频道为例，对比处理前后的效果。
 
