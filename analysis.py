@@ -155,6 +155,6 @@ with pd.ExcelWriter(output_file) as writer:
     df_links.to_excel(writer, sheet_name='Links', index=False)
     df_tags.to_excel(writer, sheet_name='Tags', index=False)
 
-print(f"\n结果已保存到: {output_path}")
+print(f"\n结果已保存到: {output_dir}")
 
 # Current version: V1.27.3
